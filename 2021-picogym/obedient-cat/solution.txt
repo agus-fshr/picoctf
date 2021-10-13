@@ -1,0 +1,4 @@
+As the name suggests, just cat the file provided and it will output the solution.
+
+cat flag
+picoCTF{s4n1ty_v3r1f13d_2aa22101}

@@ -1,0 +1,6 @@
+Run this program from netcat with
+$ nc mercury.picoctf.net 35652
+
+This outputs a series of base10 numbers that would appear to be ASCII character codes.Putting them in an online decoder reveals the key.
+
+picoCTF{g00d_k1tty!_n1c3k1tty!_9b3b7392}

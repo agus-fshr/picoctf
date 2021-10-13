@@ -1,0 +1,3 @@
+After reading the python script and testing it, it is apparent that the script needs to be run with the -d flag to decode and providing the flag file. When asked for a password, provide the contents of pw.txt.
+
+picoCTF{4p0110_1n_7h3_h0us3_67c6cc96}

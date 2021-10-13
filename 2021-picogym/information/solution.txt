@@ -1,0 +1,5 @@
+An image is provided. Running exiftool on it reveals some metadata for the image. The license looks suspicious. It would appear to be base64. Decoding it results in revealing the key.
+
+$ exiftool warm
+$ echo 'cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9' | base64 --decode
+picoCTF{the_m3tadata_1s_modified}

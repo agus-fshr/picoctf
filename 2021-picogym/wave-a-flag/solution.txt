@@ -1,0 +1,7 @@
+Running file warm shows that the file is an ELF 64-bit executable. Running strings on it will show all printable strings in the binary.
+
+strings warm | grep -i pico
+
+This will output a string that contains the key.
+
+picoCTF{b1scu1ts_4nd_gr4vy_30e77291}
