@@ -24,7 +24,7 @@ def decode(enc_flag):
         dec_flag += chr(high_char)
         low_char = packed_int - (high_char << 8)
         dec_flag += chr(low_char)
-    print(dec_flag)
+    print(f"\n Decoded is: {dec_flag}")
 
 enc_flag = input("Encoded flag: ")
 decode(enc_flag)

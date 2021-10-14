@@ -1,0 +1,3 @@
+The code provided with the question encodes any text. The way this is done is by packing two characters into one. The first one is shifted 8 bits left to fit the high part of the character, and the other fits the low. Writing a python script to reverse this results in being able to decode the flag.
+
+The flag is: picoCTF{16_bits_inst34d_of_8_0ddcd97a}

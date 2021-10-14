@@ -1,0 +1,3 @@
+As the title of the challenge suggests, we need to get a HEAD request.
+This can be done from the web browser's developer console, editing a request and changing its type to HEAD.
+The flag is: picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}
