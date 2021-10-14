@@ -1,5 +1,5 @@
 
-def encode(flag:)
+def encode(flag):
     encoded = ([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
     return encoded
 
@@ -17,7 +17,14 @@ join
 '''
 
 def decode(enc_flag):
-    for i in range(0, len(enc_flag), 2):
-        packet = ord(enc_flag[i])
+    dec_flag = ""
+    for i in range(0, len(enc_flag)):
+        packed_int = ord(enc_flag[i])
+        high_char = packed_int >> 8
+        dec_flag += chr(high_char)
+        low_char = packed_int - (high_char << 8)
+        dec_flag += chr(low_char)
+    print(dec_flag)
 
-
+enc_flag = input("Encoded flag: ")
+decode(enc_flag)
