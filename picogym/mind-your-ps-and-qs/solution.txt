@@ -1,0 +1,4 @@
+The N value provided is too low to make RSA secure. factordb.com is useful to find the factors of n, P and Q.
+Following the WikiPedia page on RSA Encryption, it is clear how the message must be decoded. The rsa.py script decrypts the message.
+
+The flag is: picoCTF{sma11_N_n0_g0od_45369387}
