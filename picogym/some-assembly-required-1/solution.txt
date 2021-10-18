@@ -1,0 +1,4 @@
+This challenge sends us to a website: http://mercury.picoctf.net:1896/index.html
+Looking in the files for the website, we can find a wasm folder. This is promissing since the name of the challenge is "Some Assembly Required", at the bottom of this file, there is the flag.
+
+The flag is: picoCTF{a2843c6ba4157dc1bc052818a6242c3f}
