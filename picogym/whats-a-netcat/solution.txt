@@ -1,0 +1,3 @@
+This one is quite straight forward. Run the command nc jupiter.challenges.picoctf.org 25103 and you'll recieve the flag.
+
+The flag is: picoCTF{nEtCat_Mast3ry_d0c64587}

@@ -1,0 +1,5 @@
+In this case, it is helpful to read the code for the bash script that comes with the challenge. It can be used to retrieve strings and code from the binary. Looking throught the produced text file for strings, we can find the flag.
+
+We can also just run the strings command on the provided binary and find it a lot quicker.
+
+The flag is: picoCTF{d15a5m_t34s3r_f6c48608}

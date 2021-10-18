@@ -1,0 +1,3 @@
+strings the file and grep the output to get the string.
+
+The flag is: picoCTF{5tRIng5_1T_d66c7bb7}
